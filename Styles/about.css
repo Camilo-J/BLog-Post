@@ -1,0 +1,98 @@
+@import url(normalize.css);
+@import url(layout_size.css);
+@import url(Typografy.css);
+@import url(buttons.css);
+@import url(header.css);
+@import url(view.css);
+@import url(footer.css);
+@import url(mediaquery.css);
+/*Section My Skills*/
+.article-summary__header {
+    text-align: center;
+  }
+  
+  .article-summary__content{
+    display: grid;
+    /* repeat(#_de_veces, tamano) */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 600px); */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+  
+    padding: 3rem;
+  }
+  /*Card content*/
+  .article-summary__card{
+    display: flex;
+    gap: 16px;
+    box-shadow: 3px 3px 20px #77e297;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+  }
+  .article-summary__card:hover{
+    transform: scale(1.05);
+    box-shadow: -3px -3px 20px #77e297;
+  }
+  /*Icon-img*/
+  .checkIcon{
+    /* margin-top: 16px; */
+    height: 25px;
+    width: 25px;
+    margin: 0.66rem 0;
+  }
+  /*Section My Hobbies*/
+.container_header{
+    text-align: center;
+}
+/*Code of Workshop*/
+.container__hobbies{
+    display: grid;
+    /* repeat(#_de_veces, tamano) */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 600px); */
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 2rem;
+  
+    padding: 3rem;
+  }
+    
+  .my-0\.5{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  .light {
+    font-weight: 300;
+  }
+  
+  .regular {
+    font-weight: 400;
+  }
+  .font600{
+    font-weight: 600;
+  }
+  /*End*/
+  .hobbies_content{
+    text-align: center;
+  }
+  .mainview{
+    background-color: #F5FCF8;
+  }
+  .but-link{
+    color: #fff;
+    text-decoration: none;
+  }
+  .images{
+    transition: 0.7s;
+  }
+  .images:hover{
+    filter: drop-shadow(0px 0px 20px #77e297);
+    transform: scale(1.07);
+  }
+@media screen and (max-width:420px) {
+  .article-summary__content{
+    padding: 3rem 0;
+  }
+}

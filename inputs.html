@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/inputs.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="inputs">
+      <div class="div">
+      <input class="default" type="text">
+      <input class="default" type="text" placeholder="placeholder">
+      <input class="default" type="text" value="Some content" >
+      </div>
+
+     <div class="div">
+        <input class="default default--focus" type="text">
+        <input class="default" type="text" placeholder="placeholder">
+        <input class="default default--focus" type="text" value="Some content">
+     </div>
+     <div class="div">
+        <input class="default default--invalid" type="text">
+        <input class="default default--invalid" type="text" placeholder="placeholder">
+        <input class="default default--invalid" type="text" value="Some content">
+
+     </div>
+     <select class="default backwhite" name="prueba">
+        <option selected hidden value="PE">Select your option</option>
+        <option value="PE">Peru</option>
+        <option value="AR">Argentina</option>
+        <option value="CL">Chile</option>
+     </select>
+    
+     <select class="default default--focus backwhite" name="prueba">
+        <option selected hidden value="PE">Select your option</option>
+        <option value="PE">Peru</option>
+        <option value="AR">Argentina</option>
+        <option value="CL">Chile</option>
+     </select>
+     
+     <select class="default default--invalid backwhite" name="prueba">
+        <option selected hidden value="PE">Select your option</option>
+        <option value="PE">Peru</option>
+        <option value="AR">Argentina</option>
+        <option value="CL">Chile</option>
+     </select>
+     <!--checkbox and radion buttons-->
+     <div class="contlabels">
+      <label class="contlabels_content" for="hola1">
+         <input class="checkbox checkbox--checked checkbox--active checkbox--focus" type="checkbox" id="hola1">
+         Hola1
+      </label>
+     <label class="contlabels_content" for="hola2">
+      <input class="checkbox checkbox--checked checkbox--active checkbox--focus" type="checkbox" id="hola2">
+      Hola2
+     </label>
+     <label class="contlabels_content" for="hola3">
+      <input class="checkbox checkbox--checked checkbox--active checkbox--focus" type="checkbox" id="hola3">
+      Hola3
+     </label>
+     </div>
+     <div class="contlabels">
+      <label class="contlabels_content" for="buhola1">
+         <input class="radiobutton radiobutton--checked radiobutton--active radiobutton--focus" type="radio" name="option" id="buhola1">
+         Hola1
+      </label>
+      <label class="contlabels_content" for="buhola2">
+         <input class="radiobutton radiobutton--checked radiobutton--active radiobutton--focus" type="radio" name="option" id="buhola2">
+         Hola2
+      </label>
+      <label class="contlabels_content" for="buhola3">
+         <input class="radiobutton radiobutton--checked radiobutton--active radiobutton--focus" type="radio" name="option" id="buhola3">
+         Hola3
+      </label>
+      </div>
+    </form>
+</body>
+</html>

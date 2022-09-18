@@ -1,0 +1,63 @@
+@import url(normalize.css);
+@import url(layout_size.css);
+@import url(Typografy.css);
+@import url(buttons.css);
+@import url(header.css);
+@import url(view.css);
+@import url(footer.css);
+@import url(mediaquery.css);
+.container_header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .article-summary__content{
+    display: grid;
+    /* repeat(#_de_veces, tamano) */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 600px); */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+  
+    padding: 3rem;
+  }
+  /* Card content
+  .article-summary__card{
+    display: flex;
+    gap: 16px; 
+  } */
+  .article__links,.article__times{
+    font-weight: 600;
+    text-transform: uppercase;
+    /* letter-spacing: .125rem; */
+  }
+  .article__links{
+    color: #3A824D;
+    text-decoration: none;
+  }
+  .font600{
+    font-weight:600 ;
+  }
+  /*Code of Workshop*/
+  .my-0\.5{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  .light {
+    font-weight: 300;
+  }
+  
+  .regular {
+    font-weight: 400;
+  }
+/*End*/
+.mainview{
+  background-color: #F5FCF8;
+}
+.but-link{
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,99 @@
+/* @import url(normalize.css);
+@import url(Typografy.css);
+@import url(buttons.css);
+@import url(layout_size.css);
+@import url(view.css);
+@import url(header.css); */
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
+
+/* ?some-value=&country=Select+one
+.input:invalid:not(focus)
+*/
+.iconnav{
+    display: none;
+}
+@media screen and (max-width: 675px) {
+    .container__navlinks{
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        position: relative;
+        left: -110%;
+    }
+    .iconnav{
+        display: inline;
+    }
+    .widfull{
+        width: 100%;
+    }
+    .navbar ul{
+        height: 176.5px; /*10,975rem */
+        width: 100%;
+        background-color: #09201B;
+        margin: 0;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        padding: 0 1rem;
+        display: none;
+        /* transition-delay: 3s; */
+    }
+    .cwhite{
+        color: #fff;
+    }
+    .navbar{
+        padding: 1.11rem 0;
+    }
+    .textdeco{
+       text-decoration: none;
+    }
+    .textgreen{
+        color: #77E297;
+    }
+    #check:checked ~ ul{
+      display: flex;
+       
+    }
+    #check:checked ~ .mainview{
+        margin-top: 175.6px;
+    }
+    /* .iconbut{
+        display: flex;
+        flex-direction: column;
+        width: 3rem;
+        height: 3rem; 
+        border: 0;
+        background: transparent;
+        gap: 0.65rem;
+    }
+    .iconbut > div{
+        text-align: center;
+        background: #fff;
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+        transition: all 0.5s;
+        transform-origin: left;
+    }
+    .iconbut:hover div:first-child{
+        transform: rotate(32.8deg);
+    }
+    .iconbut:hover div:nth-child(2){
+        opacity: 0;
+    }
+    .iconbut:hover div:last-child{
+        transform: rotate(-32.8deg);
+    }
+    .iconbut:not(:checked) > div{
+        text-align: center;
+        background: #fff;
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+        transition: all 0.5s;
+        transform-origin: left;
+    } */
+}
+

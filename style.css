@@ -1,0 +1,55 @@
+@import url(./Styles/normalize.css);
+@import url(./Styles/layout_size.css);
+@import url(./Styles/Typografy.css);
+@import url(./Styles/buttons.css);
+@import url(./Styles/header.css);
+@import url(./Styles/footer.css);
+@import url(./Styles/mediaquery.css);
+/*Styles for Article*/
+.section-md {
+    padding: 48px 0;
+    margin: auto;
+    background: #F5FCF8;
+  }
+.container-md{
+    /* max-width: 768px;
+    padding: 0 16px;
+    margin: auto; */
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.container-md > p >a{
+    color: #3A824D;
+    font-weight:400;
+}
+.quote{
+    padding: 0;
+}
+blockquote{
+    margin: 24px 0;
+    background-color: #77E297;
+    font-style: italic;
+    padding: 16px 18px;
+}
+figure{
+    /* max-width: 558px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex: 1 1 auto;
+} 
+img{
+    align-self: stretch;
+    /* flex-shrink: 1; */
+}
+.last{
+    padding: 24px 0;
+    margin-bottom: 48px;
+}
+.but-link{
+    color: #fff;
+    text-decoration: none;
+  }

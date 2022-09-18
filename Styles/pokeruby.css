@@ -1,0 +1,8 @@
+@import url(projects.css);
+
+.container__image{
+width: 384px;
+height: 327px;
+border-radius: 8px;
+object-fit: cover;
+}

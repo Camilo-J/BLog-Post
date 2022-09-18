@@ -1,0 +1,37 @@
+/* section view*/
+.view{
+    background-color: #09201B;
+    color: #fff;
+    /* min-height: 318px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.container > .view__Tittle{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+}
+.container > .view__body{
+    font-weight: 300;
+    size: 20px;
+    line-height: 30px;
+}
+.view__Tittle > strong{
+    font-weight: 600;
+    color: #77E297;
+}
+.container--flex > .Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.footer{
+    background-color: #CCFAE1;
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em; /*32px*/
+    padding: 3em 0; /*48px*/
+}
+.footer__content h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+}

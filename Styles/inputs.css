@@ -1,0 +1,82 @@
+@import url(./normalize.css);
+.inputs{
+    margin: 50px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.div{
+    display: flex;
+    gap: 32px;
+}
+.default{
+    width: 304px;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #374151;;
+    border-radius: 6px;
+}
+.default--focus:focus{
+    outline: 3px solid #3A824D99;
+    border-radius: 3px;
+}
+.default--focus:active{
+    outline: 3px solid #3A824D99;
+    border-radius: 6px;
+}
+.default--invalid{
+    border: 1px solid red;
+    border-radius: 6px; 
+}
+.backwhite{
+    background-color: #fff;
+}
+
+/*Checkbox and buttons styles*/
+.checkbox, .radiobutton{
+appearance: none;
+height: 16px;
+width: 16px;
+border: 1px solid #7c8694;
+}
+.checkbox{
+border-radius: 4px;
+background-image: url(../img/Icon.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.contlabels_content{
+    display: flex;
+    align-items: center;
+}
+.checkbox--checked:checked{
+    background-color: #3A824D;
+    border-color: #3A824D;
+}
+.checkbox--active:active, .checkbox--focus:focus{
+    outline: 2px solid #3A824D;
+    outline-offset: 1px;
+}
+.radiobutton{
+    border-radius: 8px;
+}
+.radiobutton--checked:checked{
+    border: 4px solid palevioletred;
+}
+.radiobutton--active:active{
+    animation-name: fill;
+    animation-duration: 0.3s;
+}
+.radiobutton--active:active, .radiobutton--focus:focus{
+    border: 4px solid palevioletred;
+    outline: 2px solid palevioletred;
+    outline-offset: 1px;
+}
+@keyframes fill {
+    from{
+        border: 8px solid palevioletred;
+    }
+    /* to{
+        border: 4px solid palevioletred;
+    } */
+}
